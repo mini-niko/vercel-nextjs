@@ -6,7 +6,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      dropShadow: {
+        "button": "5px 5px 0 rgba(0, 0, 0, 0.9)"
+      }
+    },
   },
   plugins: [],
 }
